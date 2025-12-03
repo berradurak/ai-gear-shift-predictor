@@ -39,8 +39,3 @@
 * Integration into a simple driving or racing simulation.
 * Testing alternative ML models such as XGBoost or neural networks.
 
-### **Project Scope**
-
-* Designed for educational and experimental use.
-* Not intended as a professional automotive tool.
-* Lightweight, understandable, and suitable for beginner machine learning projects.
