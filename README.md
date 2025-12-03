@@ -1,20 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+## **Project Features**
 
-# Run and deploy your AI Studio app
+### **Core Functionality**
 
-This contains everything you need to run your app locally.
+* Predicts the current gear of a vehicle using machine learning.
+* Utilizes real-time driving parameters such as speed, RPM, throttle position, and engine load.
+* Implements a multi-class classification approach for gear detection.
+* Developed using Python and Scikit-Learn.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ZwkHtUP9i5XLgOogXspMUW_KoNix0Y-t
+### **Data & Simulation**
 
-## Run Locally
+* Uses synthetic data generated with realistic vehicle physics to simulate driving behavior.
+* Each gear has a unique speed–RPM pattern, allowing the model to learn clear relationships.
+* Input features used in the model:
 
-**Prerequisites:**  Node.js
+  * `speed_kmh` – vehicle speed
+  * `rpm` – engine revolutions per minute
+  * `throttle_pct` – throttle pedal input
+  * `engine_load` – engine load percentage
 
+### **Machine Learning Model**
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* Built using a Random Forest Classifier.
+* Achieves a prediction accuracy of 98.2%.
+* Trained on thousands of synthetic driving samples.
+* Learns non-linear and complex relationships between vehicle parameters.
+
+### **Use Cases**
+
+* Analysis of driving behavior and efficiency.
+* Simulation and game development for realistic gear-shifting AI.
+* Automotive research where direct transmission data is not available.
+* Educational demonstration of machine learning classification techniques.
+
+### **Future Improvements**
+
+* Collecting real-world vehicle data via OBD-II for validation.
+* Adding incline/decline (slope) data for more realistic modeling.
+* Integration into a simple driving or racing simulation.
+* Testing alternative ML models such as XGBoost or neural networks.
+
+### **Project Scope**
+
+* Designed for educational and experimental use.
+* Not intended as a professional automotive tool.
+* Lightweight, understandable, and suitable for beginner machine learning projects.
