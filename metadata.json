@@ -1,0 +1,5 @@
+{
+  "name": "AI Gear-Shift Predictor",
+  "description": "An interactive dashboard and documentation for the AI Gear-Shift Behavior Predictor project. Features real-time telemetry simulation, AI-powered driving analysis using Gemini, and project documentation.",
+  "requestFramePermissions": []
+}
